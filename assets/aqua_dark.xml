@@ -15,6 +15,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 <daylight_headers>
+    <meta_data creator="Roger.T" />
     <hour_header hour="6" image="notifhead_aqua_sunrise" />
     <hour_header hour="9" image="notifhead_aqua_morning" />
     <hour_header hour="11" image="notifhead_aqua_noon" />
