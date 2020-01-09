@@ -29,7 +29,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         android:allowBackup="false"
         android:label="OmniStyle"
         android:icon="@drawable/waterslides_icon"
-        android:theme="@style/Theme.OmniStyle" >
+        android:theme="@style/Theme.OmniStyle"
+        android:requestLegacyExternalStorage="true" >
         <activity
             android:name=".BrowseHeaderActivity"
             android:label="@string/browse_header" >
@@ -77,7 +78,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             android:label="@string/omni_walls"
             android:targetActivity="org.omnirom.omnistyle.BrowseWallsActivity" >
             <intent-filter>
-                <action android:name="android.intent.action.SET_WALLPAPER" />
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity-alias>
